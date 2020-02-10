@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="GoogleSearch"> 
+  <test verbose="2" name="parameterizationDemo"> 
+  
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+   <parameter name="searchKey" value="Admin"/>
+   <parameter name="pw" value="admin123"/>
+  
+  
+   
+    <classes> 
+      <class name="parameterizationtestNG.parameterDemo"/> 
+    </classes> 
+  </test> <!-- Test --> 
+</suite> <!-- Suite --> 

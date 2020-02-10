@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Llisteners.extentReports">
+      <class name="parameterizationtestNG.dataproviderDemo">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="endReport"/>
-          <include name="setExtent"/>
+          <include name="teardown"/>
+          <include name="calculate"/>
         </methods>
-      </class> <!-- Llisteners.extentReports -->
+      </class> <!-- parameterizationtestNG.dataproviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

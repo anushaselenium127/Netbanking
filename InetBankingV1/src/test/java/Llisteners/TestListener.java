@@ -6,10 +6,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.Test;
 
 public class TestListener implements ITestListener{ //we can use extends TestListenerAdapter
-  @Test
-  public void f() {
-  }
-
+	
 public void onTestStart(ITestResult result) {
 	
 	System.out.println(result.getName()+" testcase started ");	

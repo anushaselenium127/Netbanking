@@ -1,0 +1,10 @@
+pom\InetBanking_pageObjects\loginPage.class
+pom\InetBanking_testcases\baseClass.class
+pom\InetBanking_pageObjects\addNewCustomer.class
+pom\InetBanking\Utilities\Reporting1.class
+pom\InetBanking_testcases\TC_LoginDDT_002.class
+pom\InetBanking_testcases\TC_loginTest_001.class
+pom\InetBanking\Utilities\readConfig.class
+pom\InetBanking_testcases\TC_AddCustomertest_003.class
+pom\InetBanking\Utilities\XLUtils.class
+pom\InetBanking\Utilities\Reporting.class

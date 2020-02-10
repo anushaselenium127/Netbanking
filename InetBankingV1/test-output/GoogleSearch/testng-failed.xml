@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoogleSearch]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="parameterizationDemo(failed)">
+    <parameter name="searchKey" value="selenium"/>
+    <parameter name="url" value="http://google.com"/>
+    <classes>
+      <class name="parameterizationtestNG.parameterDemo">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameterizationtestNG.parameterDemo -->
+    </classes>
+  </test> <!-- parameterizationDemo(failed) -->
+</suite> <!-- Failed suite [GoogleSearch] -->
